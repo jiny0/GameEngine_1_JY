@@ -494,6 +494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 405547668}
   - component: {fileID: 405547667}
+  - component: {fileID: 405547669}
   m_Layer: 0
   m_Name: cherry-1
   m_TagString: Untagged
@@ -565,12 +566,34 @@ Transform:
   m_GameObject: {fileID: 405547666}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.5260954, y: 3.1870768, z: 0.008490454}
+  m_LocalPosition: {x: -6.27, y: 3.03, z: 0.008490454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1572820894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &405547669
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405547666}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5799f5a18eee72a449167f1921705978, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &418575921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766508569}
   - component: {fileID: 766508568}
+  - component: {fileID: 766508570}
   m_Layer: 0
   m_Name: gem-1 (2)
   m_TagString: Untagged
@@ -1557,6 +1581,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1572820894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &766508570
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766508567}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ca02fa759c4b8854e943395d83293a62, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &769075283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1786,6 +1832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 959368771}
   - component: {fileID: 959368770}
+  - component: {fileID: 959368772}
   m_Layer: 0
   m_Name: gem-1 (1)
   m_TagString: Untagged
@@ -1863,6 +1910,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1572820894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &959368772
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959368769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e24ce15904c63174ca0395e7bc3b9194, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,6 +2079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1000607145}
   - component: {fileID: 1000607144}
+  - component: {fileID: 1000607146}
   m_Layer: 0
   m_Name: gem-1 (3)
   m_TagString: Untagged
@@ -2087,6 +2157,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1572820894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1000607146
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000607143}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a1e18b06a476b64893594cf93a9320c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1011925947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,8 +2189,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1011925948}
   - component: {fileID: 1011925949}
+  - component: {fileID: 1011925950}
   m_Layer: 0
-  m_Name: Enemy_01
+  m_Name: frog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2113,7 +2206,7 @@ Transform:
   m_GameObject: {fileID: 1011925947}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7, y: -0.14, z: -6.182665}
+  m_LocalPosition: {x: 3, y: -1.15, z: -6.182665}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2174,6 +2267,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1011925950
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011925947}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4aad78f6e68b0b147a41cc1b7e3463be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1109776331
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,6 +2299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109776333}
   - component: {fileID: 1109776332}
+  - component: {fileID: 1109776334}
   m_Layer: 0
   m_Name: gem-1 (4)
   m_TagString: Untagged
@@ -2261,6 +2377,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1572820894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1109776334
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109776331}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 401bbe6cae459b74c9c789dcd138a2cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1248779802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,6 +2670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565024991}
   - component: {fileID: 1565024992}
+  - component: {fileID: 1565024993}
   m_Layer: 0
   m_Name: cherry-1 (1)
   m_TagString: Untagged
@@ -2548,7 +2687,7 @@ Transform:
   m_GameObject: {fileID: 1565024990}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.363905, y: 4.097077, z: 0.008490454}
+  m_LocalPosition: {x: 6.363905, y: 4, z: 0.008490454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2609,6 +2748,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1565024993
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565024990}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 542c8fc895b0cdf4db1db28aeef620aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1572820893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,6 +2972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1764299652}
   - component: {fileID: 1764299651}
+  - component: {fileID: 1764299653}
   m_Layer: 0
   m_Name: gem-1
   m_TagString: Untagged
@@ -2888,6 +3050,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1572820894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1764299653
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764299650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b72f4729d5ae974ba0987ffaa10d5d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2109762115
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,6 +3845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2118949944}
   - component: {fileID: 2118949945}
+  - component: {fileID: 2118949946}
   m_Layer: 0
   m_Name: gem-1 (5)
   m_TagString: Untagged
@@ -3738,6 +3923,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2118949946
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118949943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7dcf057ce0ebf74d833d81f9f93b4da, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2145636789
 GameObject:
   m_ObjectHideFlags: 0
