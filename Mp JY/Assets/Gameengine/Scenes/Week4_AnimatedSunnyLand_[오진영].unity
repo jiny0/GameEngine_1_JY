@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 79267108}
   - component: {fileID: 79267109}
+  - component: {fileID: 79267110}
   m_Layer: 0
   m_Name: eagle (1)
   m_TagString: Untagged
@@ -145,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 79267107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.98, y: 3.67, z: -6.182665}
+  m_LocalPosition: {x: 1.98, y: 2.0400002, z: -6.182665}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -206,6 +207,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &79267110
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79267107}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 402da4f2812174e46a68ac26a4b0d0b6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &92784471
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,6 +273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122557497}
   - component: {fileID: 122557498}
+  - component: {fileID: 122557499}
   m_Layer: 0
   m_Name: eagle
   m_TagString: Untagged
@@ -266,7 +290,7 @@ Transform:
   m_GameObject: {fileID: 122557496}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.84, y: 3.54, z: -6.182665}
+  m_LocalPosition: {x: -4.84, y: 1.91, z: -6.182665}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -327,6 +351,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &122557499
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122557496}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2e3421af59be67d4a9cc56d2a89e484a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &203844586
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +528,7 @@ Transform:
   - {fileID: 1254982836}
   - {fileID: 1288107731}
   - {fileID: 769075285}
+  - {fileID: 1248779804}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &405547666
@@ -1088,6 +1135,7 @@ GameObject:
   - component: {fileID: 478386183}
   - component: {fileID: 478386184}
   - component: {fileID: 478386185}
+  - component: {fileID: 478386186}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1187,6 +1235,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &478386186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478386182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b092ef07037f74ebd10eb667394e47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &547713314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,12 +2540,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248779802}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.11, y: -1.97, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.345429, y: 0.1248517, z: 9.922783}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 257637051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1254982835
 GameObject:
@@ -2659,6 +2720,54 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 257637051}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1396343516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1396343518}
+  - component: {fileID: 1396343517}
+  m_Layer: 0
+  m_Name: ScriptTestor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1396343517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396343516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af88bac2bcc1ffa429a3e9d604341e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: "\uC624\uC9C4\uC601"
+  playerLevel: 1
+  walkSpeed: 5
+  canFly: 0
+--- !u!4 &1396343518
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396343516}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5101899, y: 0.52888346, z: 0.022871345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1565024990
 GameObject:
@@ -3987,9 +4096,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 203844589}
   - {fileID: 961739753}
+  - {fileID: 1600017190}
   - {fileID: 92784472}
   - {fileID: 257637051}
   - {fileID: 2145636790}
   - {fileID: 1572820894}
-  - {fileID: 1600017190}
-  - {fileID: 1248779804}
+  - {fileID: 1396343518}
