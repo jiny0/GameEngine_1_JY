@@ -30,12 +30,12 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.A)) moveX = -1f;
         if (Input.GetKey(KeyCode.D)) moveX = 1f;
         
-        rb.velocity = new Vector2(moveX * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
         
         // 점프 (지난 시간에 배운 내용)
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
     
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
             transform.position = startPosition;
 
             // 속도 초기화 (안 하면 계속 날아감)
-            rb.velocity = new Vector2(0, 0);
+            rb.linearVelocity = new Vector2(0, 0);
         }
     }
     
